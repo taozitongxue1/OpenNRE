@@ -32,6 +32,11 @@ Accuracy on test set: 0.986
 >>> model.infer({'text': '名旦吴菱仙是位列“同治十三绝”的名旦时小福的弟子，算得梅兰芳的开蒙老师，早年曾搭过梅巧玲的四喜班，旧谊', 'h': {'pos': (2, 4)}, 't': {'pos': (27, 29)}})
 ('师生', 0.996309220790863)
 
+# 使用
+先去pretrain下面解压./chinese_wwm_pytorch.zip
+中文数据在./benchmark/people-relation
+
+
 # OpenNRE
 
 OpenNRE is an open-source and extensible toolkit that provides a unified framework to implement relation extraction models. This package is designed for the following groups:
